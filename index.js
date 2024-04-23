@@ -5,8 +5,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'))
 const router = require("./router");
 
-
 app.use("/", router);
-console.log("Changed!");
+console.log("xfcfrghjk");
 
 app.listen(8080);
