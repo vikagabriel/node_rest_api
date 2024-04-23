@@ -7,9 +7,6 @@ const router = require("./router");
 
 
 app.use("/", router);
-// app.get("/", (req, res)=>{
-//     console.log("ok");
-//     res.send("hello")
-// })
+console.log("Changed!");
 
 app.listen(8080);
